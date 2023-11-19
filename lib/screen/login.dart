@@ -1,4 +1,5 @@
 import 'package:dan/const/color.dart';
+import 'package:dan/screen/homescreen.dart';
 import 'package:dan/screen/signUp.dart';
 import 'package:dan/utils/helper.dart';
 import 'package:dan/widgets/customText.dart';
@@ -39,7 +40,10 @@ class LoginScreen extends StatelessWidget {
                   height: 50,
                   width: double.infinity,
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context)
+                        .pushReplacementNamed(HomeScreen.routeName);
+                    },
                     child: Text("Login"),
                   ),
                 ),
@@ -111,24 +115,25 @@ class LoginScreen extends StatelessWidget {
                 Spacer(
                   flex: 4,
                 ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.of(context)
-                        .pushReplacementNamed(SignUpScreen.routeName);
-                  },
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text("Don't have an Account?"),
-                      Text(
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text("Don't have an Account?"),
+                    GestureDetector(
+                      child: Text(
                         "Sign Up",
                         style: TextStyle(
                           color: AppColor.orange,
                           fontWeight: FontWeight.bold,
                         ),
-                      )
-                    ],
-                  ),
+
+                      ),
+                      onTap: () {
+                    Navigator.of(context)
+                        .pushReplacementNamed(SignUpScreen.routeName);
+                  },
+                    )
+                  ],
                 )
               ],
             ),

@@ -5,6 +5,7 @@ import 'package:dan/screen/landingScreen.dart';
 import 'package:dan/screen/login.dart';
 import 'package:dan/screen/moreScreen.dart';
 import 'package:dan/screen/signUp.dart';
+
 import 'package:dan/widgets/splashScreen.dart';
 import 'package:flutter/material.dart';
 

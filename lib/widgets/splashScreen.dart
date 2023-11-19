@@ -37,13 +37,13 @@ class _SplashScreenState extends State<SplashScreen> {
                 fit: BoxFit.fill,
               ),
             ),
-            Text('Dan',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 22,color: Colors.orange),),
             Align(
               alignment: Alignment.center,
               child: Image.asset(
-                Helper.getAssetName("Logo.png", "virtual"),
+                Helper.getAssetName("logo.png", "virtual"),
               ),
             ),
+            Text('Dan',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 22,color: Colors.orange),),
           ],
         ),
       ),
