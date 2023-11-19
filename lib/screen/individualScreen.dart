@@ -101,7 +101,7 @@ class IndividualItem extends StatelessWidget {
                                           padding: const EdgeInsets.symmetric(
                                               horizontal: 20),
                                           child: Text(
-                                            "Tandoori Chicken Pizza",
+                                            "Pizza Hut",
                                             style: Helper.getTheme(context)
                                                 .headline5,
                                           ),
@@ -182,7 +182,7 @@ class IndividualItem extends StatelessWidget {
                                                       height: 20,
                                                     ),
                                                     Text(
-                                                      "Rs. 750",
+                                                      "EGP. 750",
                                                       style: TextStyle(
                                                         color: AppColor.primary,
                                                         fontSize: 30,
@@ -216,7 +216,7 @@ class IndividualItem extends StatelessWidget {
                                           padding: const EdgeInsets.symmetric(
                                               horizontal: 20),
                                           child: Text(
-                                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare leo non mollis id cursus. Eu euismod faucibus in leo malesuada"),
+                                              "Tandori chicken with bbq sauce"),
                                         ),
                                         SizedBox(
                                           height: 20,
@@ -422,9 +422,9 @@ class IndividualItem extends StatelessWidget {
                                                     borderRadius:
                                                         BorderRadius.only(
                                                       topRight:
-                                                          Radius.circular(40),
+                                                          Radius.circular(20),
                                                       bottomRight:
-                                                          Radius.circular(40),
+                                                          Radius.circular(20),
                                                     ),
                                                   ),
                                                 ),
@@ -487,7 +487,7 @@ class IndividualItem extends StatelessWidget {
                                                           height: 10,
                                                         ),
                                                         Text(
-                                                          "LKR 1500",
+                                                          "EGP 1500",
                                                           style: TextStyle(
                                                             color: AppColor
                                                                 .primary,

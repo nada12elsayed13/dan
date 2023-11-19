@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Good morning Nada",
+                          "Welcome Nada",
                           style: Helper.getTheme(context).headline5,
                         ),
                         Image.asset(Helper.getAssetName("cart.png", "virtual"))
@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                     height: 20,
                   ),
                   SearchBar(
-                    hintText: "Search Food",
+                    hintText: "Search ",
                   ),
                   SizedBox(
                     height: 20,
@@ -92,7 +92,7 @@ class HomeScreen extends StatelessWidget {
                               Helper.getAssetName("hamburger2.jpg", "real"),
                               fit: BoxFit.cover,
                             ),
-                            name: "burger",
+                            name: "Food",
                           ),
                           SizedBox(
                             width: 10,
@@ -155,21 +155,21 @@ class HomeScreen extends StatelessWidget {
                       Helper.getAssetName("pizza2.jpg", "real"),
                       fit: BoxFit.cover,
                     ),
-                    name: "Minute by tuk tuk",
+                    name: "Karam Al-Sham",
                   ),
                   RestaurantCard(
                     image: Image.asset(
                       Helper.getAssetName("breakfast.jpg", "real"),
                       fit: BoxFit.cover,
                     ),
-                    name: "Cafe de Noir",
+                    name: "Boulevard",
                   ),
                   RestaurantCard(
                     image: Image.asset(
                       Helper.getAssetName("bakery.jpg", "real"),
                       fit: BoxFit.cover,
                     ),
-                    name: "Bakes by Tella",
+                    name: "maghbozat MAKA",
                   ),
                   SizedBox(
                     height: 50,
@@ -206,13 +206,13 @@ class HomeScreen extends StatelessWidget {
                               Helper.getAssetName("pizza4.jpg", "real"),
                               fit: BoxFit.cover,
                             ),
-                            name: "Cafe De Bambaa",
+                            name: "Pizza hut",
                           ),
                           SizedBox(
                             width: 30,
                           ),
                           MostPopularCard(
-                            name: "Burger by Bella",
+                            name: "NOLA",
                             image: Image.asset(
                               Helper.getAssetName("dessert3.jpg", "real"),
                               fit: BoxFit.cover,
@@ -257,7 +257,7 @@ class HomeScreen extends StatelessWidget {
                               Helper.getAssetName("pizza3.jpg", "real"),
                               fit: BoxFit.cover,
                             ),
-                            name: "Mulberry Pizza by Josh",
+                            name: "Papa jhons",
                           ),
                         ),
                         RecentItemCard(
@@ -265,13 +265,13 @@ class HomeScreen extends StatelessWidget {
                               Helper.getAssetName("coffee.jpg", "real"),
                               fit: BoxFit.cover,
                             ),
-                            name: "Barita"),
+                            name: "stereo"),
                         RecentItemCard(
                             image: Image.asset(
                               Helper.getAssetName("pizza.jpg", "real"),
                               fit: BoxFit.cover,
                             ),
-                            name: "Pizza Rush Hour"),
+                            name: "Pizza"),
                       ],
                     ),
                   )
@@ -350,7 +350,7 @@ class RecentItemCard extends StatelessWidget {
                     SizedBox(
                       width: 5,
                     ),
-                    Text("Western Food"),
+                    Text("Food"),
                     SizedBox(
                       width: 20,
                     ),
